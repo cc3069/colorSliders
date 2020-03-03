@@ -5,6 +5,6 @@ function setup() {
 }
 
 function draw() {
-    background(slider1.value());
+    background(255, 255, slider1.value());
     
 }
