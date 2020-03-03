@@ -1,10 +1,14 @@
 let slider1;
+let slider2;
+let slider3;
 function setup() {
     createCanvas(windowWidth, windowHeight);
     slider1 = createSlider(0, 255);
+    slider2 = createSlider(0, 255);
+    slider3 = createSlider(0, 255);
 }
 
 function draw() {
-    background(255, 255, slider1.value());
+    background(slider1.value(), 0, 0);
     
 }
